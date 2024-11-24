@@ -18,13 +18,6 @@ public class TRABAJOEDAGRUPAL {
     public static int idE = 1;
     public static LinkedList<Eleccion> Elecciones = new LinkedList<Eleccion>();
     public static void main(String[] args) {
-//        agregarEleccion(0,"Presidencial",2026,5,5);
-//        Mesa m1 = new Mesa(1,"todeto");
-//        buscarEleccionPorId(1).agregarMesa(m1);
-//        buscarEleccionPorId(1).agregarCandidato("123", "Capitan", "Casino", "BetanoCuentasCorrientes");
-//        buscarEleccionPorId(1).agregarCandidato("2024", "Luis", "Todeto", "TrabasGratis");
-//        MiembroMesa mm1 = new MiembroMesa("1", "pedro", "castillo", "Presidente", "asdasd");
-//        buscarEleccionPorId(1).getListaMesas().getFirst().agregarMiembro(mm1);
         new Auth().setVisible(true);
     }
 
